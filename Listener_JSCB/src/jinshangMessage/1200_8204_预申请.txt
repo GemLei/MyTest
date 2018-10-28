@@ -1,0 +1,137 @@
+0000004435<?xml version="1.0" encoding="UTF-8"?>
+<service>
+  <sys-header>
+    <data name="SYS_HEAD">
+      <struct>
+        <data name="SERVICE_CODE">
+          <field type="string" length="12">CREDIT_MANAGE</field>
+        </data>
+        <data name="TRAN_CODE">
+          <field type="string" length="4" />
+        </data>
+        <data name="TRAN_TYPE">
+          <field type="string" length="4">QE05</field>
+        </data>
+        <data name="REVERSAL_TRAN_TYPE">
+          <field type="string" length="4" />
+        </data>
+        <data name="TRAN_MODE">
+          <field type="string" length="10">ONLINE</field>
+        </data>
+        <data name="SOURCE_TYPE">
+          <field type="string" length="2">QE</field>
+        </data>
+        <data name="BRANCH_ID">
+          <field type="string" length="6">351006</field>
+        </data>
+        <data name="USER_ID">
+          <field type="string" length="30">A01043</field>
+        </data>
+        <data name="TRAN_DATE">
+          <field type="string" length="8">20180930</field>
+        </data>
+        <data name="TRAN_TIMESTAMP">
+          <field type="string" length="9">110517</field>
+        </data>
+        <data name="SERVER_ID">
+          <field type="string" length="30">10.2.4.82</field>
+        </data>
+        <data name="WS_ID">
+          <field type="string" length="30" />
+        </data>
+        <data name="USER_LANG">
+          <field type="string" length="20">CHINESE</field>
+        </data>
+        <data name="SEQ_NO">
+          <field type="string" length="16">01028320</field>
+        </data>
+        <data name="PROGRAM_ID">
+          <field type="string" length="8">35100602</field>
+        </data>
+        <data name="AUTH_USER_ID">
+          <field type="string" length="30" />
+        </data>
+        <data name="AUTH_PASSWORD">
+          <field type="string" length="30" />
+        </data>
+        <data name="AUTH_FLAG">
+          <field type="string" length="1">M</field>
+        </data>
+        <data name="APPR_USER_ID">
+          <field type="string" length="30" />
+        </data>
+        <data name="APPR_FLAG">
+          <field type="string" length="1 ">A</field>
+        </data>
+        <data name="SOURCE_BRANCH_NO">
+          <field type="string" length="6">1700</field>
+        </data>
+        <data name="DEST_BRANCH_NO">
+          <field type="string" length="6">0002</field>
+        </data>
+        <data name="MODULE_ID">
+          <field type="string" length="2">RB</field>
+        </data>
+        <data name="MESSAGE_TYPE">
+          <field type="string" length="4">1200</field>
+        </data>
+        <data name="MESSAGE_CODE">
+          <field type="string" length="6">8204</field>
+        </data>
+        <data name="FILE_PATH">
+          <field type="string" length="512" />
+        </data>
+      </struct>
+    </data>
+  </sys-header>
+  <app-header>
+    <data name="APP_HEAD">
+      <struct>
+        <data name="PGUP_OR_PGDN">
+          <field type="string" length="8">0</field>
+        </data>
+        <data name="TOTAL_NUM">
+          <field type="string" length="8">-1</field>
+        </data>
+        <data name="CURRENT_NUM">
+          <field type="string" length="8">0</field>
+        </data>
+        <data name="PAGE_START">
+          <field type="string" length="8">0</field>
+        </data>
+        <data name="PAGE_END">
+          <field type="string" length="8">0</field>
+        </data>
+      </struct>
+    </data>
+  </app-header>
+  <body>
+    <data name="PRI_CARD_NO">
+      <field type="string" length="19">6252026000000130</field>
+    </data>
+    <data name="CHECK_FLAG">
+      <field type="string" length="1">0</field>
+    </data>
+    <data name="PASSWORD">
+      <field type="string" length="16">8d082d6cdb9a8cb0</field>
+    </data>
+    <data name="OPERTP">
+      <field type="string" length="1">4</field>
+    </data>
+    <data name="CREDNO">
+      <field type="string" length="4">1001</field>
+    </data>
+    <data name="NBR_MTHS">
+      <field type="string" length="3">06</field>
+    </data>
+    <data name="AMT">
+      <field type="string" length="12">000000150000</field>
+    </data>
+    <data name="CURR_NUM">
+      <field type="string" length="3">156</field>
+    </data>
+    <data name="SAMT_PNT">
+      <field type="string" length="3" />
+    </data>
+  </body>
+</service>

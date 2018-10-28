@@ -1,0 +1,225 @@
+0000007424<?xml version="1.0" encoding="UTF-8"?>
+<service>
+<sys-header>
+<data name="SYS_HEAD">
+<struct>
+<data name="TRAN_TIMESTAMP">
+<field scale="0" type="string" length="6">165430</field>
+</data>
+<data name="DEST_BRANCH_NO">
+<field scale="0" type="string" length="4">0002</field>
+</data>
+<data name="SOURCE_BRANCH_NO">
+<field scale="0" type="string" length="4">3000</field>
+</data>
+<data name="TRAN_DATE">
+<field scale="0" type="string" length="8">20340110</field>
+</data>
+<data name="RET_STATUS">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="RET">
+<array>
+<struct>
+<data name="RET_CODE">
+<field scale="0" type="string" length="6">000000</field>
+</data>
+<data name="RET_MSG">
+<field scale="0" type="string" length="6">交易执行成功</field>
+</data>
+</struct>
+</array>
+</data>
+<data name="MESSAGE_TYPE">
+<field scale="0" type="string" length="4">1410</field>
+</data>
+<data name="SEQ_NO">
+<field scale="0" type="string" length="6">750907</field>
+</data>
+<data name="SERVICE_CODE">
+<field scale="0" type="string" length="12">CREDIT_QUERY</field>
+</data>
+<data name="MESSAGE_CODE">
+<field scale="0" type="string" length="4">7108</field>
+</data>
+<data name="BRANCH_ID">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+</struct>
+</data>
+</sys-header>
+<app-header>
+<data name="APP_HEAD">
+<struct/>
+</data>
+</app-header>
+<local-header>
+<data name="LOCAL_HEAD">
+<struct/>
+</data>
+</local-header>
+<body>
+<data name="ORIG_LIMIT">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="PTMP_NBR">
+<field scale="0" type="string" length="3">006</field>
+</data>
+<data name="LAST_PAY_AMT">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="AVLIMT">
+<field scale="0" type="double" length="18">116800.79</field>
+</data>
+<data name="CALIMITAVB">
+<field scale="0" type="double" length="18">116800.79</field>
+</data>
+<data name="MIN_DUE">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="CAL_LIMIT">
+<field scale="0" type="string" length="3">0.0</field>
+</data>
+<data name="DUE_AMT">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="ACCCHINM">
+<field scale="0" type="string" length="27">乔文俊                        </field>
+</data>
+<data name="TLMT_BEG">
+<field scale="0" type="string" length="8">00000000</field>
+</data>
+<data name="FOR_INS_ID">
+<field scale="0" type="string" length="8">64491610</field>
+</data>
+<data name="AGE_AMT">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="LMP_AUTHS">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="BALNCEFLG">
+<field scale="0" type="string" length="1">-</field>
+</data>
+<data name="PRI_CARD_NO">
+<field scale="0" type="string" length="19">6252023030000016</field>
+</data>
+<data name="SOURCE_ID">
+<field scale="0" type="string" length="9">000000001</field>
+</data>
+<data name="PROD_DESC">
+<field scale="0" type="string" length="28">I分期                         </field>
+</data>
+<data name="LAYCODE1">
+<field scale="0" type="string" length="5">     </field>
+</data>
+<data name="TEMP_LIMIT">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="PTMP_END">
+<field scale="0" type="string" length="8">00000000</field>
+</data>
+<data name="LMP_LIMIT">
+<field scale="0" type="double" length="18">500000.0</field>
+</data>
+<data name="AGE_DAYS">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="LAST_PAY_DAY">
+<field scale="0" type="string" length="8">20180902</field>
+</data>
+<data name="BALNCE">
+<field scale="0" type="double" length="18">116800.79</field>
+</data>
+<data name="OPEN_DATE">
+<field scale="0" type="string" length="8">20180319</field>
+</data>
+<data name="TLMT_END">
+<field scale="0" type="string" length="8">00000000</field>
+</data>
+<data name="PTMP_YN">
+<field scale="0" type="string" length="1">1</field>
+</data>
+<data name="CAL_AVAL">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="LOAN_DAY">
+<field scale="0" type="string" length="8">00000000</field>
+</data>
+<data name="LMP_PPL">
+<field scale="0" type="double" length="18">666.68</field>
+</data>
+<data name="BANK_NO">
+<field scale="0" type="string" length="4">6449</field>
+</data>
+<data name="CRED_LMT">
+<field scale="0" type="string" length="10">0000000000</field>
+</data>
+<data name="ACCTNAME1">
+<field scale="0" type="string" length="6">乔文俊 女士</field>
+</data>
+<data name="PTMP_BEG">
+<field scale="0" type="string" length="8">00000000</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="4">0001</field>
+</data>
+<data name="CHECK_FLAG">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="DAILY_AVAIL">
+<field scale="0" type="double" length="18">499306.32</field>
+</data>
+<data name="CALAPP_AMT">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="CALIMIT">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="ACQ_INS_ID">
+<field scale="0" type="string" length="8">64491610</field>
+</data>
+<data name="MP_REM_BAL">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="DEST_ID">
+<field scale="0" type="string" length="8">64491610</field>
+</data>
+<data name="SMS_YN">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="PASSWORD">
+<field scale="0" type="string" length="8">8e97bf57536276ba</field>
+</data>
+<data name="CUSTID">
+<field scale="0" type="string" length="18">142402198705176625</field>
+</data>
+<data name="MPAVBLE">
+<field scale="0" type="double" length="18">116800.79</field>
+</data>
+<data name="OXFR_AVAL">
+<field scale="0" type="double" length="18">116800.79</field>
+</data>
+<data name="PROD_LEVEL">
+<field scale="0" type="string" length="2">30</field>
+</data>
+<data name="PYMT_CLUD">
+<field scale="0" type="double" length="18">109800.0</field>
+</data>
+<data name="CREDIT_LIMIT">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="MP_REM_INTFEE">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+<data name="LMP_AVAIL">
+<field scale="0" type="double" length="18">499306.32</field>
+</data>
+<data name="KEYTYPE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="MPCREDIT">
+<field scale="0" type="double" length="18">0.0</field>
+</data>
+</body>
+</service>

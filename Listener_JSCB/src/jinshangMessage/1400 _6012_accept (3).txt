@@ -1,0 +1,1878 @@
+0000059136<?xml version="1.0" encoding="UTF-8"?>
+<service>
+<sys-header>
+<data name="SYS_HEAD">
+<struct>
+<data name="TRAN_TIMESTAMP">
+<field scale="0" type="string" length="6">163009</field>
+</data>
+<data name="DEST_BRANCH_NO">
+<field scale="0" type="string" length="4">3000</field>
+</data>
+<data name="SOURCE_BRANCH_NO">
+<field scale="0" type="string" length="4">2400</field>
+</data>
+<data name="TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="RET_STATUS">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="RET">
+<array>
+<struct>
+<data name="RET_CODE">
+<field scale="0" type="string" length="6">000000</field>
+</data>
+<data name="RET_MSG">
+<field scale="0" type="string" length="7">Success</field>
+</data>
+</struct>
+</array>
+</data>
+<data name="MESSAGE_TYPE">
+<field scale="0" type="string" length="4">1410</field>
+</data>
+<data name="SEQ_NO">
+<field scale="0" type="string" length="16">QE20180612180915</field>
+</data>
+<data name="SERVICE_CODE">
+<field scale="0" type="string" length="8">SVR_CARD</field>
+</data>
+<data name="MESSAGE_CODE">
+<field scale="0" type="string" length="4">6012</field>
+</data>
+<data name="BRANCH_ID">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+</struct>
+</data>
+</sys-header>
+<app-header>
+<data name="APP_HEAD">
+<struct/>
+</data>
+</app-header>
+<local-header>
+<data name="LOCAL_HEAD">
+<struct/>
+</data>
+</local-header>
+<body>
+<data name="ACCT_ARRAY">
+<array>
+<struct>
+<data name="ACCT_CLASS">
+<field scale="0" type="string" length="1">Ⅱ</field>
+</data>
+<data name="INT_STMT">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="ACCT_DESC">
+<field scale="0" type="string" length="10">个人活期存款（本币）</field>
+</data>
+<data name="STATUS_CHG_DATE">
+<field scale="0" type="string" length="8">20220707</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="INIT_DEP">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CASH_PREV_DAY_LEDGER_BAL">
+<field scale="0" type="double" length="32">478500.33</field>
+</data>
+<data name="OSA_FLAG">
+<field scale="0" type="string" length="1">I</field>
+</data>
+<data name="ACTUAL_OR_LEDGER_BAL">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CONTACT_TYPE_DESC">
+<field scale="0" type="string" length="4">其他信息</field>
+</data>
+<data name="ADVICE_HANDLING">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CONTACT_TEL">
+<field scale="0" type="string" length="11">13233335555</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="FINANCING_SIGN">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="OWNERSHIP_TYPE">
+<field scale="0" type="string" length="2">SG</field>
+</data>
+<data name="AVAIL_BAL">
+<field scale="0" type="double" length="32">483522.36</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="7">ZD00003</field>
+</data>
+<data name="BASE_ACCT_TYPE_DESC">
+<field scale="0" type="string" length="9">晋商银行借记卡账户</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="LAST_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CONTACT_TYPE">
+<field scale="0" type="string" length="2">19</field>
+</data>
+<data name="CASH_ACTUAL_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="CASH_LAST_CHANGE_USER">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="BASE_INTERNAL_KEY">
+<field scale="0" type="string" length="7">2775064</field>
+</data>
+<data name="CASH_BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="CASH_LAST_TRANSACTION_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="CASH_TOTAL_FLOATS_AMT">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="MULTI_BAL_TYPE">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="ACCT_NATURE">
+<field scale="0" type="string" length="4">0001</field>
+</data>
+<data name="AGREEMENT_FLAG">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="LEAD_ACCT_FLAG">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CASH_LEDGER_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="CERT_STATUS">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351113</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20220624</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="WITHDRAWAL_TYPE">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="ACCT_NATURE_DESC">
+<field scale="0" type="string" length="13">-境内--个人人民币结算户</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35111310100139267</field>
+</data>
+<data name="ALT_ACCT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CASH_PREV_DAY_ACTUAL_BAL">
+<field scale="0" type="double" length="32">478500.33</field>
+</data>
+<data name="CASH_ACTUAL_BAL">
+<field scale="0" type="double" length="32">483522.36</field>
+</data>
+<data name="LEAD_ACCT_INTERNAL_KEY">
+<field scale="0" type="string" length="7">3526488</field>
+</data>
+<data name="CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="10">个人活期存款（本币）</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="CASH_LEDGER_BAL">
+<field scale="0" type="double" length="32">483522.36</field>
+</data>
+<data name="STMT_PBK">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="BASE_ACCT_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="PB_FLAG">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">483522.36</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="ADDRESS">
+<field scale="0" type="string" length="39">中华人民共和国/China山西省太原市山西省太原市万柏林区迎泽西大街79号０９</field>
+</data>
+</struct>
+<struct>
+<data name="ACCT_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="AUTO_RENEW">
+<field scale="0" type="string" length="1">O</field>
+</data>
+<data name="STATUS_CHG_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="INIT_DEP">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CASH_PREV_DAY_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="OSA_FLAG">
+<field scale="0" type="string" length="1">I</field>
+</data>
+<data name="MIN_BAL">
+<field scale="0" type="double" length="32">50.0</field>
+</data>
+<data name="ADVICE_HANDLING">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CONTACT_TEL">
+<field scale="0" type="string" length="11">13233335555</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="MATURITY_DATE">
+<field scale="0" type="string" length="8">20300629</field>
+</data>
+<data name="CHECK_BAL_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="AVAIL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="7">ZD00003</field>
+</data>
+<data name="BASE_ACCT_TYPE_DESC">
+<field scale="0" type="string" length="9">晋商银行借记卡账户</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="LAST_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CASH_ACTUAL_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="CASH_LAST_CHANGE_USER">
+<field scale="0" type="string" length="7">ZD00003</field>
+</data>
+<data name="CR_INT">
+<field scale="0" type="double" length="32">2.3</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="BASE_INTERNAL_KEY">
+<field scale="0" type="string" length="7">2775065</field>
+</data>
+<data name="CASH_BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="CASH_LAST_TRANSACTION_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">T</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="CASH_TOTAL_FLOATS_AMT">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="MULTI_BAL_TYPE">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="TERM">
+<field scale="0" type="string" length="1">3</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="ACCT_NATURE">
+<field scale="0" type="string" length="4">0001</field>
+</data>
+<data name="AGREEMENT_FLAG">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="PRINCIPAL_AMT">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CERTIFICATE_NO">
+<field scale="0" type="string" length="8">00000006</field>
+</data>
+<data name="CASH_LEDGER_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351113</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="WITHDRAWAL_TYPE">
+<field scale="0" type="string" length="1">B</field>
+</data>
+<data name="ACCT_NATURE_DESC">
+<field scale="0" type="string" length="13">-境内--个人人民币结算户</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35111310100139267</field>
+</data>
+<data name="FIXED_CALL">
+<field scale="0" type="string" length="1">F</field>
+</data>
+<data name="CASH_PREV_DAY_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CASH_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="MIN_BAL_CHECK_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="MAIN_ACCT_TYPE">
+<field scale="0" type="string" length="3">209</field>
+</data>
+<data name="TERM_TYPE">
+<field scale="0" type="string" length="1">M</field>
+</data>
+<data name="CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="CASH_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="STMT_PBK">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="OPEN_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="BASE_ACCT_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="PB_FLAG">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">200</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="ADDRESS">
+<field scale="0" type="string" length="39">中华人民共和国/China山西省太原市山西省太原市万柏林区迎泽西大街79号０９</field>
+</data>
+</struct>
+<struct>
+<data name="ACCT_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="AUTO_RENEW">
+<field scale="0" type="string" length="1">O</field>
+</data>
+<data name="STATUS_CHG_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="INIT_DEP">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CASH_PREV_DAY_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="OSA_FLAG">
+<field scale="0" type="string" length="1">I</field>
+</data>
+<data name="MIN_BAL">
+<field scale="0" type="double" length="32">50.0</field>
+</data>
+<data name="ADVICE_HANDLING">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CONTACT_TEL">
+<field scale="0" type="string" length="11">13233335555</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="MATURITY_DATE">
+<field scale="0" type="string" length="8">20300629</field>
+</data>
+<data name="CHECK_BAL_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="AVAIL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="7">ZD00003</field>
+</data>
+<data name="BASE_ACCT_TYPE_DESC">
+<field scale="0" type="string" length="9">晋商银行借记卡账户</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="LAST_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CASH_ACTUAL_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="CASH_LAST_CHANGE_USER">
+<field scale="0" type="string" length="7">ZD00003</field>
+</data>
+<data name="CR_INT">
+<field scale="0" type="double" length="32">2.3</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="BASE_INTERNAL_KEY">
+<field scale="0" type="string" length="7">2775065</field>
+</data>
+<data name="CASH_BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="CASH_LAST_TRANSACTION_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">T</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="CASH_TOTAL_FLOATS_AMT">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="MULTI_BAL_TYPE">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="TERM">
+<field scale="0" type="string" length="1">3</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="ACCT_NATURE">
+<field scale="0" type="string" length="4">0001</field>
+</data>
+<data name="AGREEMENT_FLAG">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="PRINCIPAL_AMT">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CERTIFICATE_NO">
+<field scale="0" type="string" length="8">00000007</field>
+</data>
+<data name="CASH_LEDGER_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351113</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="WITHDRAWAL_TYPE">
+<field scale="0" type="string" length="1">B</field>
+</data>
+<data name="ACCT_NATURE_DESC">
+<field scale="0" type="string" length="13">-境内--个人人民币结算户</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35111310100139267</field>
+</data>
+<data name="FIXED_CALL">
+<field scale="0" type="string" length="1">F</field>
+</data>
+<data name="CASH_PREV_DAY_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CASH_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="MIN_BAL_CHECK_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="MAIN_ACCT_TYPE">
+<field scale="0" type="string" length="3">209</field>
+</data>
+<data name="TERM_TYPE">
+<field scale="0" type="string" length="1">M</field>
+</data>
+<data name="CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="CASH_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="STMT_PBK">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="OPEN_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="BASE_ACCT_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="PB_FLAG">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">200</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="ADDRESS">
+<field scale="0" type="string" length="39">中华人民共和国/China山西省太原市山西省太原市万柏林区迎泽西大街79号０９</field>
+</data>
+</struct>
+<struct>
+<data name="ACCT_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="AUTO_RENEW">
+<field scale="0" type="string" length="1">O</field>
+</data>
+<data name="STATUS_CHG_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="INIT_DEP">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CASH_PREV_DAY_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="OSA_FLAG">
+<field scale="0" type="string" length="1">I</field>
+</data>
+<data name="MIN_BAL">
+<field scale="0" type="double" length="32">50.0</field>
+</data>
+<data name="ADVICE_HANDLING">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CONTACT_TEL">
+<field scale="0" type="string" length="11">13233335555</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="MATURITY_DATE">
+<field scale="0" type="string" length="8">20300629</field>
+</data>
+<data name="CHECK_BAL_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="AVAIL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="BASE_ACCT_TYPE_DESC">
+<field scale="0" type="string" length="9">晋商银行借记卡账户</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="LAST_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CASH_ACTUAL_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="CASH_LAST_CHANGE_USER">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="CR_INT">
+<field scale="0" type="double" length="32">2.3</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="BASE_INTERNAL_KEY">
+<field scale="0" type="string" length="7">2775065</field>
+</data>
+<data name="CASH_BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="CASH_LAST_TRANSACTION_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">T</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="CASH_TOTAL_FLOATS_AMT">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="MULTI_BAL_TYPE">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="TERM">
+<field scale="0" type="string" length="1">3</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="ACCT_NATURE">
+<field scale="0" type="string" length="4">0001</field>
+</data>
+<data name="AGREEMENT_FLAG">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="PRINCIPAL_AMT">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CERTIFICATE_NO">
+<field scale="0" type="string" length="8">00000008</field>
+</data>
+<data name="CASH_LEDGER_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="WITHDRAWAL_TYPE">
+<field scale="0" type="string" length="1">B</field>
+</data>
+<data name="ACCT_NATURE_DESC">
+<field scale="0" type="string" length="13">-境内--个人人民币结算户</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35111310100139267</field>
+</data>
+<data name="FIXED_CALL">
+<field scale="0" type="string" length="1">F</field>
+</data>
+<data name="CASH_PREV_DAY_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CASH_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="MIN_BAL_CHECK_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="MAIN_ACCT_TYPE">
+<field scale="0" type="string" length="3">209</field>
+</data>
+<data name="TERM_TYPE">
+<field scale="0" type="string" length="1">M</field>
+</data>
+<data name="CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="CASH_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="STMT_PBK">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="OPEN_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="BASE_ACCT_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="PB_FLAG">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">200</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="ADDRESS">
+<field scale="0" type="string" length="39">中华人民共和国/China山西省太原市山西省太原市万柏林区迎泽西大街79号０９</field>
+</data>
+</struct>
+<struct>
+<data name="ACCT_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="AUTO_RENEW">
+<field scale="0" type="string" length="1">O</field>
+</data>
+<data name="STATUS_CHG_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="INIT_DEP">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CASH_PREV_DAY_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="OSA_FLAG">
+<field scale="0" type="string" length="1">I</field>
+</data>
+<data name="MIN_BAL">
+<field scale="0" type="double" length="32">50.0</field>
+</data>
+<data name="ADVICE_HANDLING">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CONTACT_TEL">
+<field scale="0" type="string" length="11">13233335555</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="MATURITY_DATE">
+<field scale="0" type="string" length="8">20300629</field>
+</data>
+<data name="CHECK_BAL_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="AVAIL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="BASE_ACCT_TYPE_DESC">
+<field scale="0" type="string" length="9">晋商银行借记卡账户</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="LAST_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CASH_ACTUAL_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="CASH_LAST_CHANGE_USER">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="CR_INT">
+<field scale="0" type="double" length="32">2.3</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="BASE_INTERNAL_KEY">
+<field scale="0" type="string" length="7">2775065</field>
+</data>
+<data name="CASH_BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="CASH_LAST_TRANSACTION_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">T</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="CASH_TOTAL_FLOATS_AMT">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="MULTI_BAL_TYPE">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="TERM">
+<field scale="0" type="string" length="1">3</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="ACCT_NATURE">
+<field scale="0" type="string" length="4">0001</field>
+</data>
+<data name="AGREEMENT_FLAG">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="PRINCIPAL_AMT">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CERTIFICATE_NO">
+<field scale="0" type="string" length="8">00000009</field>
+</data>
+<data name="CASH_LEDGER_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="WITHDRAWAL_TYPE">
+<field scale="0" type="string" length="1">B</field>
+</data>
+<data name="ACCT_NATURE_DESC">
+<field scale="0" type="string" length="13">-境内--个人人民币结算户</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35111310100139267</field>
+</data>
+<data name="FIXED_CALL">
+<field scale="0" type="string" length="1">F</field>
+</data>
+<data name="CASH_PREV_DAY_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CASH_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="MIN_BAL_CHECK_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="MAIN_ACCT_TYPE">
+<field scale="0" type="string" length="3">209</field>
+</data>
+<data name="TERM_TYPE">
+<field scale="0" type="string" length="1">M</field>
+</data>
+<data name="CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="CASH_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="STMT_PBK">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="OPEN_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="BASE_ACCT_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="PB_FLAG">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">200</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="ADDRESS">
+<field scale="0" type="string" length="39">中华人民共和国/China山西省太原市山西省太原市万柏林区迎泽西大街79号０９</field>
+</data>
+</struct>
+<struct>
+<data name="ACCT_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="AUTO_RENEW">
+<field scale="0" type="string" length="1">O</field>
+</data>
+<data name="STATUS_CHG_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="INIT_DEP">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CASH_PREV_DAY_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="OSA_FLAG">
+<field scale="0" type="string" length="1">I</field>
+</data>
+<data name="MIN_BAL">
+<field scale="0" type="double" length="32">50.0</field>
+</data>
+<data name="ADVICE_HANDLING">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CONTACT_TEL">
+<field scale="0" type="string" length="11">13233335555</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="MATURITY_DATE">
+<field scale="0" type="string" length="8">20300629</field>
+</data>
+<data name="CHECK_BAL_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="AVAIL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="BASE_ACCT_TYPE_DESC">
+<field scale="0" type="string" length="9">晋商银行借记卡账户</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="LAST_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CASH_ACTUAL_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="CASH_LAST_CHANGE_USER">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="CR_INT">
+<field scale="0" type="double" length="32">2.3</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="BASE_INTERNAL_KEY">
+<field scale="0" type="string" length="7">2775065</field>
+</data>
+<data name="CASH_BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="CASH_LAST_TRANSACTION_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">T</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="CASH_TOTAL_FLOATS_AMT">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="MULTI_BAL_TYPE">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="TERM">
+<field scale="0" type="string" length="1">3</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="ACCT_NATURE">
+<field scale="0" type="string" length="4">0001</field>
+</data>
+<data name="AGREEMENT_FLAG">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="PRINCIPAL_AMT">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CERTIFICATE_NO">
+<field scale="0" type="string" length="8">00000010</field>
+</data>
+<data name="CASH_LEDGER_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="WITHDRAWAL_TYPE">
+<field scale="0" type="string" length="1">B</field>
+</data>
+<data name="ACCT_NATURE_DESC">
+<field scale="0" type="string" length="13">-境内--个人人民币结算户</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35111310100139267</field>
+</data>
+<data name="FIXED_CALL">
+<field scale="0" type="string" length="1">F</field>
+</data>
+<data name="CASH_PREV_DAY_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CASH_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="MIN_BAL_CHECK_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="MAIN_ACCT_TYPE">
+<field scale="0" type="string" length="3">209</field>
+</data>
+<data name="TERM_TYPE">
+<field scale="0" type="string" length="1">M</field>
+</data>
+<data name="CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="CASH_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="STMT_PBK">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="OPEN_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="BASE_ACCT_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="PB_FLAG">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">200</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="ADDRESS">
+<field scale="0" type="string" length="39">中华人民共和国/China山西省太原市山西省太原市万柏林区迎泽西大街79号０９</field>
+</data>
+</struct>
+<struct>
+<data name="ACCT_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="AUTO_RENEW">
+<field scale="0" type="string" length="1">O</field>
+</data>
+<data name="STATUS_CHG_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="INIT_DEP">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CASH_PREV_DAY_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="OSA_FLAG">
+<field scale="0" type="string" length="1">I</field>
+</data>
+<data name="MIN_BAL">
+<field scale="0" type="double" length="32">50.0</field>
+</data>
+<data name="ADVICE_HANDLING">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CONTACT_TEL">
+<field scale="0" type="string" length="11">13233335555</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="MATURITY_DATE">
+<field scale="0" type="string" length="8">20300629</field>
+</data>
+<data name="CHECK_BAL_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="AVAIL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="BASE_ACCT_TYPE_DESC">
+<field scale="0" type="string" length="9">晋商银行借记卡账户</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="LAST_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CASH_ACTUAL_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="CASH_LAST_CHANGE_USER">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="CR_INT">
+<field scale="0" type="double" length="32">2.3</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="BASE_INTERNAL_KEY">
+<field scale="0" type="string" length="7">2775065</field>
+</data>
+<data name="CASH_BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="CASH_LAST_TRANSACTION_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">T</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="CASH_TOTAL_FLOATS_AMT">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="MULTI_BAL_TYPE">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="TERM">
+<field scale="0" type="string" length="1">3</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="ACCT_NATURE">
+<field scale="0" type="string" length="4">0001</field>
+</data>
+<data name="AGREEMENT_FLAG">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="PRINCIPAL_AMT">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CERTIFICATE_NO">
+<field scale="0" type="string" length="8">00000011</field>
+</data>
+<data name="CASH_LEDGER_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="WITHDRAWAL_TYPE">
+<field scale="0" type="string" length="1">B</field>
+</data>
+<data name="ACCT_NATURE_DESC">
+<field scale="0" type="string" length="13">-境内--个人人民币结算户</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35111310100139267</field>
+</data>
+<data name="FIXED_CALL">
+<field scale="0" type="string" length="1">F</field>
+</data>
+<data name="CASH_PREV_DAY_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CASH_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="MIN_BAL_CHECK_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="MAIN_ACCT_TYPE">
+<field scale="0" type="string" length="3">209</field>
+</data>
+<data name="TERM_TYPE">
+<field scale="0" type="string" length="1">M</field>
+</data>
+<data name="CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="CASH_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="STMT_PBK">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="OPEN_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="BASE_ACCT_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="PB_FLAG">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">200</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="ADDRESS">
+<field scale="0" type="string" length="39">中华人民共和国/China山西省太原市山西省太原市万柏林区迎泽西大街79号０９</field>
+</data>
+</struct>
+<struct>
+<data name="ACCT_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="AUTO_RENEW">
+<field scale="0" type="string" length="1">O</field>
+</data>
+<data name="STATUS_CHG_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="INIT_DEP">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CASH_PREV_DAY_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="OSA_FLAG">
+<field scale="0" type="string" length="1">I</field>
+</data>
+<data name="MIN_BAL">
+<field scale="0" type="double" length="32">50.0</field>
+</data>
+<data name="ADVICE_HANDLING">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CONTACT_TEL">
+<field scale="0" type="string" length="11">13233335555</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="MATURITY_DATE">
+<field scale="0" type="string" length="8">20300629</field>
+</data>
+<data name="CHECK_BAL_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="AVAIL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="BASE_ACCT_TYPE_DESC">
+<field scale="0" type="string" length="9">晋商银行借记卡账户</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="LAST_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CASH_ACTUAL_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="CASH_LAST_CHANGE_USER">
+<field scale="0" type="string" length="6">A01043</field>
+</data>
+<data name="CR_INT">
+<field scale="0" type="double" length="32">2.3</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="BASE_INTERNAL_KEY">
+<field scale="0" type="string" length="7">2775065</field>
+</data>
+<data name="CASH_BAL_TYPE">
+<field scale="0" type="string" length="2">CA</field>
+</data>
+<data name="CASH_LAST_TRANSACTION_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">T</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="CASH_TOTAL_FLOATS_AMT">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="MULTI_BAL_TYPE">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="TERM">
+<field scale="0" type="string" length="1">3</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="ACCT_NATURE">
+<field scale="0" type="string" length="4">0001</field>
+</data>
+<data name="AGREEMENT_FLAG">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="PRINCIPAL_AMT">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CERTIFICATE_NO">
+<field scale="0" type="string" length="8">00000012</field>
+</data>
+<data name="CASH_LEDGER_BAL_IND">
+<field scale="0" type="string" length="2">CR</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="WITHDRAWAL_TYPE">
+<field scale="0" type="string" length="1">B</field>
+</data>
+<data name="ACCT_NATURE_DESC">
+<field scale="0" type="string" length="13">-境内--个人人民币结算户</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35111310100139267</field>
+</data>
+<data name="FIXED_CALL">
+<field scale="0" type="string" length="1">F</field>
+</data>
+<data name="CASH_PREV_DAY_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CASH_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="MIN_BAL_CHECK_IND">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="MAIN_ACCT_TYPE">
+<field scale="0" type="string" length="3">209</field>
+</data>
+<data name="TERM_TYPE">
+<field scale="0" type="string" length="1">M</field>
+</data>
+<data name="CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="12">个人整存整取存款（本币）</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="CASH_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="STMT_PBK">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="OPEN_TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="BASE_ACCT_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="PB_FLAG">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">200</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="ADDRESS">
+<field scale="0" type="string" length="39">中华人民共和国/China山西省太原市山西省太原市万柏林区迎泽西大街79号０９</field>
+</data>
+</struct>
+</array>
+</data>
+</body>
+</service>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          

@@ -1,0 +1,2709 @@
+0000080896<?xml version="1.0" encoding="UTF-8"?>
+<service>
+<sys-header>
+<data name="SYS_HEAD">
+<struct>
+<data name="TRAN_TIMESTAMP">
+<field scale="0" type="string" length="6">163009</field>
+</data>
+<data name="DEST_BRANCH_NO">
+<field scale="0" type="string" length="4">3000</field>
+</data>
+<data name="SOURCE_BRANCH_NO">
+<field scale="0" type="string" length="4">2400</field>
+</data>
+<data name="TRAN_DATE">
+<field scale="0" type="string" length="8">20300329</field>
+</data>
+<data name="RET_STATUS">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="RET">
+<array>
+<struct>
+<data name="RET_CODE">
+<field scale="0" type="string" length="6">000000</field>
+</data>
+<data name="RET_MSG">
+<field scale="0" type="string" length="7">Success</field>
+</data>
+</struct>
+</array>
+</data>
+<data name="MESSAGE_TYPE">
+<field scale="0" type="string" length="4">1410</field>
+</data>
+<data name="SEQ_NO">
+<field scale="0" type="string" length="16">QE20180612192609</field>
+</data>
+<data name="SERVICE_CODE">
+<field scale="0" type="string" length="11">SVR_INQUIRY</field>
+</data>
+<data name="MESSAGE_CODE">
+<field scale="0" type="string" length="4">0107</field>
+</data>
+<data name="BRANCH_ID">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+</struct>
+</data>
+</sys-header>
+<app-header>
+<data name="APP_HEAD">
+<struct>
+<data name="PAGE_START">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="PGUP_OR_PGDN">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="TOTAL_NUM">
+<field scale="0" type="string" length="2">-1</field>
+</data>
+<data name="CURRENT_NUM">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="PAGE_END">
+<field scale="0" type="string" length="1">0</field>
+</data>
+</struct>
+</data>
+</app-header>
+<local-header>
+<data name="LOCAL_HEAD">
+<struct/>
+</data>
+</local-header>
+<body>
+<data name="ACCT_ARRAY">
+<array>
+<struct>
+<data name="CLIENT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="DETAIL_ARRAY">
+<array>
+<struct>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="17">35100610000039801</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20270722</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">新开</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">MT</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_CLASSIFY">
+<field scale="0" type="string" length="1">Ⅱ</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+</array>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20270722</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">新建</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35100610000039801</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="OWNERSHIP_TYPE">
+<field scale="0" type="string" length="2">SG</field>
+</data>
+<data name="ALT_ACCT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="5">A0097</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="ACCT_EXEC_NAME">
+<field scale="0" type="string" length="4">初始柜员</field>
+</data>
+<data name="OWNERSHIP_TYPE_DESC">
+<field scale="0" type="string" length="4">独立帐户</field>
+</data>
+<data name="INTERNAL_KEY">
+<field scale="0" type="string" length="7">3585357</field>
+</data>
+<data name="LAST_CHANGE_USER">
+<field scale="0" type="string" length="5">A0097</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="10">个人活期存款（本币）</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="REF_ACCT_BRANCH_NAME">
+<field scale="0" type="string" length="16">晋商银行股份有限公司太原迎泽支行</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="SURNAME_FIRST">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="LEAD_CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="CLIENT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="ACCT_EXEC">
+<field scale="0" type="string" length="8">99999999</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20290224</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+</struct>
+<struct>
+<data name="CLIENT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="DETAIL_ARRAY">
+<array>
+<struct>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="17">35100610000039848</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20270722</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">新开</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">MT</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_CLASSIFY">
+<field scale="0" type="string" length="1">Ⅱ</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+</array>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20270722</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">新建</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35100610000039848</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="OWNERSHIP_TYPE">
+<field scale="0" type="string" length="2">SG</field>
+</data>
+<data name="ALT_ACCT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="5">A0097</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="ACCT_EXEC_NAME">
+<field scale="0" type="string" length="4">初始柜员</field>
+</data>
+<data name="OWNERSHIP_TYPE_DESC">
+<field scale="0" type="string" length="4">独立帐户</field>
+</data>
+<data name="INTERNAL_KEY">
+<field scale="0" type="string" length="7">3585359</field>
+</data>
+<data name="LAST_CHANGE_USER">
+<field scale="0" type="string" length="5">A0097</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="10">个人活期存款（本币）</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="REF_ACCT_BRANCH_NAME">
+<field scale="0" type="string" length="16">晋商银行股份有限公司太原迎泽支行</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="SURNAME_FIRST">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="LEAD_CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="CLIENT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="ACCT_EXEC">
+<field scale="0" type="string" length="8">99999999</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20290224</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+</struct>
+<struct>
+<data name="CARD">
+<field scale="0" type="string" length="19">6231790835100321700</field>
+</data>
+<data name="CLIENT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="DETAIL_ARRAY">
+<array>
+<struct>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511131010013857201</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">1.75414858E7</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">1.75414858E7</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_CLASSIFY">
+<field scale="0" type="string" length="1">Ⅱ</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">1.75414858E7</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">1.75414858E7</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000001</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000006401</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000002</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000007301</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">20000.56</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">20000.56</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">20000.56</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">20000.56</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000003</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000008201</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">30000.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">30000.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">30000.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">30000.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000004</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000021701</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000005</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000025374501</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.08</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.08</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.08</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.08</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000006</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000025375401</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.1</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.1</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.1</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.1</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000007</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000025376301</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.08</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.08</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.08</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.08</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000008</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000025377201</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000009</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000025378101</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.14</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.14</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.14</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.14</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000010</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000025379001</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000011</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000025380801</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.06</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000012</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000032501</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">10000.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">10000.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">10000.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">10000.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000013</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000033401</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">200000.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">200000.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">200000.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">200000.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000014</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000035201</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">40000.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">40000.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">40000.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">40000.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000015</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000025384401</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">402.62</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">402.62</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">402.62</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">402.62</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000016</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000037001</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">50000.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">50000.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">50000.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">50000.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000017</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000038001</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">50000.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">50000.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">50000.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">50000.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000018</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000045101</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">10000.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">10000.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">10000.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">10000.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000019</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000047001</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">20000.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">20000.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">20000.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">20000.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000020</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026233001</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000021</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026234901</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000022</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026235801</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">900.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">900.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">900.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">900.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000023</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026236701</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">1400.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">1400.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">1400.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">1400.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000024</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026237601</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">300.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">300.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">300.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">300.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000025</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026238501</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">2250.22</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">2250.22</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">2250.22</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">2250.22</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000026</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026239401</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000027</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026459001</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">1005.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">1005.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">1005.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">1005.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000028</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026460801</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">1205.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">1205.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">1205.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">1205.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000029</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026461701</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">2106.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">2106.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">2106.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">2106.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000030</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026462601</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">3109.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">3109.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">3109.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">3109.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000031</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026463501</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">1680.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">1680.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">1680.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">1680.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000032</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026464401</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">4809.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">4809.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">4809.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">4809.0</field>
+</data>
+</struct>
+</array>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351113</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20200129</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35111310100138569</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="OWNERSHIP_TYPE">
+<field scale="0" type="string" length="2">SG</field>
+</data>
+<data name="ALT_ACCT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="7">ZD00003</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="OWNERSHIP_TYPE_DESC">
+<field scale="0" type="string" length="4">独立帐户</field>
+</data>
+<data name="INTERNAL_KEY">
+<field scale="0" type="string" length="10">3733629032</field>
+</data>
+<data name="LAST_CHANGE_USER">
+<field scale="0" type="string" length="7">ZD00003</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="9">晋商银行借记卡账户</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="REF_ACCT_BRANCH_NAME">
+<field scale="0" type="string" length="18">晋商银行股份有限公司太原南内环街支行</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="SURNAME_FIRST">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="WS_ID">
+<field scale="0" type="string" length="12">zd.00002.zpk</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="LEAD_CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="CLIENT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20200129</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+</struct>
+<struct>
+<data name="CARD">
+<field scale="0" type="string" length="19">6231790135101020801</field>
+</data>
+<data name="CLIENT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="CLIENT_IND">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="MULTI_CCY">
+<field scale="0" type="string" length="1">N</field>
+</data>
+<data name="CLIENT_TYPE">
+<field scale="0" type="string" length="3">100</field>
+</data>
+<data name="DETAIL_ARRAY">
+<array>
+<struct>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511131010013927401</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">483522.36</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">483522.36</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_CLASSIFY">
+<field scale="0" type="string" length="1">Ⅱ</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">483522.36</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">483522.36</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000001</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026711901</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000002</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026712801</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000003</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026713701</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000004</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132140000155001</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000005</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026767901</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_EN">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">销户</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">MT</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000006</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026960301</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000007</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3511132000026961201</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000008</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3510062000018859601</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">MT</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000009</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3510062000018860301</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">MT</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000010</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3510062000018861201</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">MT</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000011</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3510062000018862101</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">MT</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+</struct>
+<struct>
+<data name="CERT_NO">
+<field scale="0" type="string" length="8">00000012</field>
+</data>
+<data name="ACCT_NO">
+<field scale="0" type="string" length="22">CNY3510062000018864001</field>
+</data>
+<data name="CA_ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CA_LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="ACCT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">MT</field>
+</data>
+<data name="TT_ACTUAL_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACCT_NAME_CH">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="TT_LEDGER_BAL">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="ACTUAL_BAL">
+<field scale="0" type="double" length="32">100.0</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+</struct>
+</array>
+</data>
+<data name="CLIENT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="BRANCH">
+<field scale="0" type="string" length="6">351113</field>
+</data>
+<data name="ACCT_OPEN_DATE">
+<field scale="0" type="string" length="8">20220624</field>
+</data>
+<data name="CH_CLIENT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="ISS_COUNTRY">
+<field scale="0" type="string" length="3">CHN</field>
+</data>
+<data name="ACCT_STATUS_DESC">
+<field scale="0" type="string" length="2">活动</field>
+</data>
+<data name="GLOBAL_ID_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35111310100139267</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">010000414108</field>
+</data>
+<data name="OWNERSHIP_TYPE">
+<field scale="0" type="string" length="2">SG</field>
+</data>
+<data name="ALT_ACCT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+<data name="USER_ID">
+<field scale="0" type="string" length="7">ZD00003</field>
+</data>
+<data name="GLOBAL_ID">
+<field scale="0" type="string" length="18">141181199006140132</field>
+</data>
+<data name="OWNERSHIP_TYPE_DESC">
+<field scale="0" type="string" length="4">独立帐户</field>
+</data>
+<data name="INTERNAL_KEY">
+<field scale="0" type="string" length="11">36132093328</field>
+</data>
+<data name="LAST_CHANGE_USER">
+<field scale="0" type="string" length="7">ZD00003</field>
+</data>
+<data name="ACCT_TYPE_DESC">
+<field scale="0" type="string" length="9">晋商银行借记卡账户</field>
+</data>
+<data name="LEAD_CCY">
+<field scale="0" type="string" length="3">CNY</field>
+</data>
+<data name="REF_ACCT_BRANCH_NAME">
+<field scale="0" type="string" length="18">晋商银行股份有限公司太原南内环街支行</field>
+</data>
+<data name="APPROVAL_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="SURNAME_FIRST">
+<field scale="0" type="string" length="1">Y</field>
+</data>
+<data name="CLIENT_SHORT">
+<field scale="0" type="string" length="2">郝敏</field>
+</data>
+<data name="WS_ID">
+<field scale="0" type="string" length="12">zd.00003.zpk</field>
+</data>
+<data name="DEPOSIT_TYPE">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CLIENT_IND_DESC">
+<field scale="0" type="string" length="4">普通客户</field>
+</data>
+<data name="PROFIT_CENTRE">
+<field scale="0" type="string" length="2">01</field>
+</data>
+<data name="LEAD_CCY_DESC">
+<field scale="0" type="string" length="3">人民币</field>
+</data>
+<data name="CLIENT_CHANNEL_FLAG">
+<field scale="0" type="string" length="2">ZD</field>
+</data>
+<data name="GLOBAL_ID_TYPE_DESC">
+<field scale="0" type="string" length="3">身份证</field>
+</data>
+<data name="APPROVAL_STATUS_DESC">
+<field scale="0" type="string" length="3">已批准</field>
+</data>
+<data name="ACCT_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="CATEGORY_TYPE">
+<field scale="0" type="string" length="3">101</field>
+</data>
+<data name="LAST_CHANGE_DATE">
+<field scale="0" type="string" length="8">20220624</field>
+</data>
+<data name="ACCT_STATUS">
+<field scale="0" type="string" length="1">A</field>
+</data>
+<data name="CLIENT_NAME">
+<field scale="0" type="string" length="1"> </field>
+</data>
+</struct>
+</array>
+</data>
+</body>
+</service>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

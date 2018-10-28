@@ -1,0 +1,96 @@
+0000003584<?xml version="1.0" encoding="UTF-8"?>
+<service>
+<sys-header>
+<data name="SYS_HEAD">
+<struct>
+<data name="TRAN_TIMESTAMP">
+<field scale="0" type="string" length="6">104052</field>
+</data>
+<data name="DEST_BRANCH_NO">
+<field scale="0" type="string" length="4">3000</field>
+</data>
+<data name="SOURCE_BRANCH_NO">
+<field scale="0" type="string" length="4">2400</field>
+</data>
+<data name="TRAN_DATE">
+<field scale="0" type="string" length="8">20340108</field>
+</data>
+<data name="RET_STATUS">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="RET">
+<array>
+<struct>
+<data name="RET_CODE">
+<field scale="0" type="string" length="6">000000</field>
+</data>
+<data name="RET_MSG">
+<field scale="0" type="string" length="7">Success</field>
+</data>
+</struct>
+</array>
+</data>
+<data name="MESSAGE_TYPE">
+<field scale="0" type="string" length="4">1010</field>
+</data>
+<data name="SEQ_NO">
+<field scale="0" type="string" length="8">01028517</field>
+</data>
+<data name="SERVICE_CODE">
+<field scale="0" type="string" length="8">SVR_CARD</field>
+</data>
+<data name="MESSAGE_CODE">
+<field scale="0" type="string" length="4">6019</field>
+</data>
+<data name="BRANCH_ID">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+</struct>
+</data>
+</sys-header>
+<app-header>
+<data name="APP_HEAD">
+<struct/>
+</data>
+</app-header>
+<local-header>
+<data name="LOCAL_HEAD">
+<struct/>
+</data>
+</local-header>
+<body>
+<data name="REF_NO">
+<field scale="0" type="string" length="22">RB35100600000051924405</field>
+</data>
+<data name="P1">
+<array>
+<struct>
+<data name="BASE_ACCT_NO">
+<field scale="0" type="string" length="17">35100610100169240</field>
+</data>
+<data name="TRAN_SEQ_NO">
+<field scale="0" type="string" length="9">104307156</field>
+</data>
+</struct>
+</array>
+</data>
+<data name="ACCT_NAME">
+<field scale="0" type="string" length="3">Ð»Á¬»·</field>
+</data>
+<data name="AVAIL_BAL">
+<field scale="0" type="double" length="32">1.545033861E7</field>
+</data>
+<data name="CASH_LEDGER_BAL">
+<field scale="0" type="double" length="32">1.545033861E7</field>
+</data>
+<data name="P3">
+<struct/>
+</data>
+<data name="LEDGER_BAL">
+<field scale="0" type="double" length="32">1.545033861E7</field>
+</data>
+<data name="CASH_ACTUAL_BAL">
+<field scale="0" type="double" length="32">1.545033861E7</field>
+</data>
+</body>
+</service>

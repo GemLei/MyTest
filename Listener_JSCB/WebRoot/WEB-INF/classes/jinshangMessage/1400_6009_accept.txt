@@ -1,0 +1,157 @@
+0000005376<?xml version="1.0" encoding="UTF-8"?>
+<service>
+<sys-header>
+<data name="SYS_HEAD">
+<struct>
+<data name="TRAN_TIMESTAMP">
+<field scale="0" type="string" length="9">104418197</field>
+</data>
+<data name="DEST_BRANCH_NO">
+<field scale="0" type="string" length="4">3000</field>
+</data>
+<data name="SOURCE_BRANCH_NO">
+<field scale="0" type="string" length="4">2400</field>
+</data>
+<data name="TRAN_DATE">
+<field scale="0" type="string" length="8">20261227</field>
+</data>
+<data name="RET_STATUS">
+<field scale="0" type="string" length="1">S</field>
+</data>
+<data name="RET">
+<array>
+<struct>
+<data name="RET_CODE">
+<field scale="0" type="string" length="6">000000</field>
+</data>
+<data name="RET_MSG">
+<field scale="0" type="string" length="7">success</field>
+</data>
+</struct>
+</array>
+</data>
+<data name="MESSAGE_TYPE">
+<field scale="0" type="string" length="4">1410</field>
+</data>
+<data name="SERVICE_CODE">
+<field scale="0" type="string" length="8">SVR_CARD</field>
+</data>
+<data name="SEQ_NO">
+<field scale="0" type="string" length="16">QE20180122100145</field>
+</data>
+<data name="BRANCH_ID">
+<field scale="0" type="string" length="6">351006</field>
+</data>
+<data name="MESSAGE_CODE">
+<field scale="0" type="string" length="4">6009</field>
+</data>
+</struct>
+</data>
+</sys-header>
+<app-header>
+<data name="APP_HEAD">
+<struct>
+<data name="PAGE_START">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="PGUP_OR_PGDN">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="TOTAL_NUM">
+<field scale="0" type="string" length="2">-1</field>
+</data>
+<data name="CURRENT_NUM">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="PAGE_END">
+<field scale="0" type="string" length="1">0</field>
+</data>
+</struct>
+</data>
+</app-header>
+<local-header>
+<data name="LOCAL_HEAD">
+<struct/>
+</data>
+</local-header>
+<body>
+<data name="CARD_STATE">
+<field scale="0" type="string" length="1">1</field>
+</data>
+<data name="APP_CARD_NUM">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="APP_FLAG">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="CARD_MEDIUM">
+<field scale="0" type="string" length="1">C</field>
+</data>
+<data name="LOST_STATE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="VALL_DATE">
+<field scale="0" type="string" length="8">20491231</field>
+</data>
+<data name="LOCK_CARD_DATE">
+<field scale="0" type="string" length="8">20250623</field>
+</data>
+<data name="ISSUING_BRANCH">
+<field scale="0" type="string" length="6">351126</field>
+</data>
+<data name="CARD_NO">
+<field scale="0" type="string" length="19">6212163510100294657</field>
+</data>
+<data name="CLIENT_NO">
+<field scale="0" type="string" length="12">005501940019</field>
+</data>
+<data name="CVN_ERROR_NUM">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="TAKE_CARD_TELE">
+<field scale="0" type="string" length="11">13403693757</field>
+</data>
+<data name="PASSWORD_ERROR_NUM">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="TAKE_CARD_CERTI_NO">
+<field scale="0" type="string" length="18">140103198211080015</field>
+</data>
+<data name="CARD_USER_ID">
+<field scale="0" type="string" length="5">A0436</field>
+</data>
+<data name="TAKE_CARD_NAME">
+<field scale="0" type="string" length="3">闫广亮</field>
+</data>
+<data name="ISS_DATE">
+<field scale="0" type="string" length="8">20100222</field>
+</data>
+<data name="SALARY_FLAG">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="UNIT_CARD_FLAG">
+<field scale="0" type="string" length="1">1</field>
+</data>
+<data name="CARD_PRODUCT_NAME">
+<field scale="0" type="string" length="9">银联标准普通借记卡</field>
+</data>
+<data name="LAST_FEE_DATE">
+<field scale="0" type="string" length="8">20260222</field>
+</data>
+<data name="CHANGE_CARD_NUM">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="CP_FLAG">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="TAKE_CARD_CERT_TYPE">
+<field scale="0" type="string" length="1">0</field>
+</data>
+<data name="LIVE_CARD_COUNT">
+<field scale="0" type="double" length="32">0.0</field>
+</data>
+<data name="CARD_PRODUCT">
+<field scale="0" type="string" length="3">002</field>
+</data>
+</body>
+</service>
